@@ -3,7 +3,7 @@ A network router simulation was implemented to makes prioritization decisions ba
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This assignment will simulate a network router and the network packets that come through it.  I have built a simplified IP packet class and a network simulation.  Your responsibility is to build a StochasticRouter class and a Router class.  These Routers will be implemented as priority queues built on a heap.   You may use std::vector and std::queue for this assignment.  Your EvaluatePriority function must include both TOS and length of the packet as part of the evaluation.  It is up to you to decide what the TOS values mean and whether you want to prefer long packets or short packets.   You may experiment with how you evaluate those and how many different priority values you use. 
+This project will simulate a network router and the network packets that come through it.  A simplified IP packet class and a network simulation have been built.  Your responsibility is to build a StochasticRouter class and a Router class.  These Routers will be implemented as priority queues built on a heap.   You may use std::vector and std::queue for this assignment.  Your EvaluatePriority function must include both TOS and length of the packet as part of the evaluation.  It is up to you to decide what the TOS values mean and whether you want to prefer long packets or short packets.   You may experiment with how you evaluate those and how many different priority values you use. 
 
 Router must implement the following methods: 
 
