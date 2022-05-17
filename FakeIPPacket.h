@@ -38,7 +38,7 @@ class FakeIPPacket {
   
     private:
     // see https://tools.ietf.org/html/rfc791#section-3.1 for details of a real 
-    IP packet
+    IP packet 
     unsigned char TOS;
     unsigned short length;
     unsigned short time;  
