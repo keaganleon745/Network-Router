@@ -183,8 +183,7 @@ int Router::LargestChild(int currentIndex)
     {
         return -1;
     }
-    return (leftChild >= rightChild) ? leftChildIndex : rightChildIndex;  //left or
-right index chosen
+    return (leftChild >= rightChild) ? leftChildIndex : rightChildIndex;  //left or right index chosen
 }
 
 //Swap: swaps 2 variables
