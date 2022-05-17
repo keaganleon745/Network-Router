@@ -30,7 +30,7 @@ packets left
         }
     }
 router.PrintStatistics();
-}
+} 
 // Desired output for PrintStatistics:
 // Average time for Priority 0 of 6: 
 // Average time for Priority 1 of 6:
